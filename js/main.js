@@ -52,18 +52,6 @@ $(document).ready(function(){
 
 
 
-
-
-	//parallax effect initialization
-	$('.hero').parallax("50%", 0.3);
-
-
-
-
-
-
-
-
 	//Nice scroll initialization
 	$("html").niceScroll({
 		scrollspeed: 50,
