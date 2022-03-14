@@ -2,7 +2,7 @@ const path = require("path");
 const glob = require("glob");
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: glob.sync('./src/js/*.js').reduce(function (obj, el) {
         if (obj['main']) obj['main'].push(el)
         else obj['main'] = []
